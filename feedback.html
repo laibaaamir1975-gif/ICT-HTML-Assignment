@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <a href="index.html">Home</a> 
+<a href="feedback.html">Register</a>
+<br><br>
+    <h1>Feedback Form</h1>
+
+<form action="thanks.html" method="get">
+<label>Full Name:  </label>
+<input type="text" name="Full Name" required>
+<br><br>
+<label>E-mail:  </label>
+<input type="email" name="email" required>
+<br><br>
+<label>Gender:  </label>
+<input type="radio" name="gender" value="Male">
+<label>Male</label>
+<input type="radio" name="gender" value="Female">
+<label>Female</label>
+<br><br>
+<label>Department:  </label>
+<select name="Department">
+    <option value="AI">AI</option>
+    <option value="CS">CS</option>
+    <option value="SE">SE</option>
+    <option value="EE">EE</option>
+</select>
+<label>Interests: </label>
+<input type="checkbox" name="interests" value="Web">
+<label>Web</label>
+<input type="checkbox" name="interests" value="AI">
+<label>AI</label>
+<input type="checkbox" name="interests" value="Games">
+<label>Games</label>
+<br><br>
+<label>Comments:</label>
+<br>
+<textarea name="comments" rows="4" cols="30"></textarea>
+<br><br>
+<button type="submit">Send</button>
+</form>
+</body>
+</html>
